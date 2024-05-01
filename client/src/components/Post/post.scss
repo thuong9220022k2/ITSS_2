@@ -1,0 +1,94 @@
+.post{
+    background-color: #fff;
+    border-radius: 8px;
+    width: 700px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+
+
+    &-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-timestamp{
+        color: #65676B;
+        font-size: 12px;
+    }
+
+    img{
+        object-fit: contain;
+        max-width: 100%;
+
+    }
+
+    &-action{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-input{
+        border: none;
+        width: 100%;
+        margin-left: 16px;
+        padding: 8px 0;
+        border-bottom: 1px solid #d5d5d5;
+        &:focus{
+            outline: none !important;
+        }
+    }
+
+    &-add{
+      width: 100%;
+      .ant-space-item:nth-child(2){
+        flex:1;
+      }
+       
+    }
+}
+
+
+.active{
+    border-bottom: 1px solid #1677FF;
+}
+
+
+input[name="readmore"]{
+    display: none;
+}
+
+.post-username{
+    font-weight: bold;
+}
+
+.post-comment-container{
+    display: flex;
+    
+
+
+}
+
+.post-content{
+    // max-height: 300px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.post-comments{
+    background-color: #f0f2f5;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+// .post-content::before{
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     content: "";
+//     width: 100%;
+//     height: 100px;
+//     transition: 0.5s ease-in-out;
+//     background-image: linear-gradient(to top, #fff,transparent);
+// }
