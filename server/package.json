@@ -1,0 +1,21 @@
+{
+  "name": "Nodejs_CRUD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.1",
+    "firebase-admin": "^11.11.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^6.12.3",
+    "nodemon": "^3.0.1"
+  }
+}
