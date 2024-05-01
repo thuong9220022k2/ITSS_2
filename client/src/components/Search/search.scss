@@ -1,0 +1,25 @@
+.search{
+    &-input{
+        background-color: #F0F2F5;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 42px;
+        padding: 8px 16px;
+        margin: 16px;
+        border-radius: 20px;
+        input{
+            // margin-left: 8px !important;
+            flex-grow: 1;
+            padding: 7px 6px 9px;
+            display: inline-block;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            
+        }
+    }
+  &-list{
+    background-color: red;
+  }
+}

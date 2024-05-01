@@ -1,0 +1,21 @@
+.create-post{
+    width: 100%;
+}
+
+.quill .ql-container{
+    min-height: 400px;
+}
+
+.float-btn{
+    display: flex;
+    justify-content: end;
+}
+
+.container{
+    margin-top: 16px;
+    max-width: 100%;
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

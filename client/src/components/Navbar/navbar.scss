@@ -1,0 +1,49 @@
+.navbar{
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &-logo{
+        display: flex;
+        align-items: center;
+        img{
+            height: 58px;
+        }
+    }
+
+    &-search{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        margin: auto 16px;
+    }
+    &-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+        li{
+            padding: 0 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    a{
+        display: inline-flex;
+        color:#000;
+    }
+    a.active {
+       border: none;
+       color:#167FFF;
+      }
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    padding-left: 0;
+}
